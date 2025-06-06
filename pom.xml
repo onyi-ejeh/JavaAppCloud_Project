@@ -95,6 +95,14 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>cloudwatch</artifactId>
+            <version>2.25.28</version> <!-- or the latest available -->
+        </dependency>
+
+
     </dependencies>
 
     <build>
